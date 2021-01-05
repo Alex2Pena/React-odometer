@@ -1,12 +1,29 @@
 .App {
   text-align: center;
 }
-
+header {
+  text-align: center;
+}
+main {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.odometer {
+  font-size: 100px;
+}
+main button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +53,7 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
